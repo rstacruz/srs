@@ -31,7 +31,7 @@ end
 ```
 
 ### Don't forget the curly braces
-Inconsistency is the root of all evil. Even if they're inferred, prefer to be explicit with your curly braces around hashes.
+Inconsistency is the root of all evil. Even if they're inferred, prefer to be explicit with your curly braces around hashes. Why would you place your faith in Ruby's ACI (automatic curly-brace insertion)?
 
 ```rb
 # ✓ OK
