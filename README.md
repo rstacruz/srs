@@ -63,3 +63,7 @@ That's not a question. Don't like semicolons in your semicolon-optional language
 #### Are you really serious?
 
 This document is satire in case you haven't picked up on that yet. If you want a real styleguide, look at [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide).
+
+<br>
+
+[![](https://img.shields.io/badge/%E2%96%B6-Give_feedback-green.svg)](https://github.com/rstacruz/srs/issues/new)
