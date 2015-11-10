@@ -53,7 +53,7 @@ book = Book.new(title: 'Pride & Prejudice', author: 'J. Austen')
 
 #### This is terrible advice.
 
-That's not a question. Don't like semicolons in your semicolon-optional language? Start (or continue) writing them without semicolons, then! Start with [JavaScript](http://standardjs.com/) ;)
+That's not a question. Don't like semicolons in your semicolon-optional language? Start (or continue) writing them without semicolons, then! Start with [JavaScript](http://standardjs.com/rules.html) ;)
 
 #### Are you really serious?
 
