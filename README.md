@@ -24,7 +24,7 @@ end
 ```
 
 ```rb
-# ✓ Avoid
+# ✗ Wtf is this
 if model.valid?
   return false
 end
@@ -39,7 +39,7 @@ book = Book.new({ title: 'Pride & Prejudice', author: 'J. Austen' });
 ```
 
 ```rb
-# ✓ Avoid
+# ✗ This is terrible
 book = Book.new(title: 'Pride & Prejudice', author: 'J. Austen')
 ```
 
