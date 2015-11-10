@@ -43,6 +43,11 @@ book = Book.new({ title: 'Pride & Prejudice', author: 'J. Austen' });
 book = Book.new(title: 'Pride & Prejudice', author: 'J. Austen')
 ```
 
+```rb
+# ✗✗✗ Seriously, do you even Ruby?
+book = Book.new title: 'Pride & Prejudice', author: 'J. Austen'
+```
+
 <br>
 
 ## FAQ
