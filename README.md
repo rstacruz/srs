@@ -6,11 +6,11 @@ We've started writing our Ruby code in the same way we do our JavaScript code an
 End all your statements with semicolons. Semicolons are optional, but you should always put them in for consistency. Semicolons are fine in Ruby. All Ruby interpreters like MRI, Rubinius and JRuby will be able to parse your code correctly.
 
 ```rb
-def create_user(name)
+def create_user(name);
   user = User.create({ name: name });
   user.validate!();
   user.save();
-end
+end;
 ```
 
 ### Never omit parentheses
