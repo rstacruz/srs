@@ -51,6 +51,10 @@ book = Book.new(title: 'Pride & Prejudice', author: 'J. Austen')
 
 **Yes, 100%.** There is a growing movement to enforce a semicolon-less style in languages like Ruby and Python. Don't believe the hype! Semicolons have existed [since 1494](https://en.wikipedia.org/wiki/Semicolon), and there's a good reason why Ruby's syntax allows semicolons. If it weren't necessary, then the language wouldn't have it, eh?
 
+#### This is terrible advice.
+
+That's not a question. Don't like semicolons in your semicolon-optional language? Start (or continue) writing them without semicolons, then! Start with [JavaScript](http://standardjs.com/) ;)
+
 #### Are you really serious?
 
 This document is satire in case you haven't picked up on that yet. If you want a real styleguide, look at [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide).
