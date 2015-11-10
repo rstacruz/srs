@@ -13,7 +13,7 @@ def create_user(name)
 end
 ```
 
-### Don't omit parentheses
+### Never omit parentheses
 Although parentheses are optional in Ruby, prefer to always put them so that your code will be consistent.
 
 ```rb
@@ -45,4 +45,12 @@ book = Book.new(title: 'Pride & Prejudice', author: 'J. Austen')
 
 <br>
 
-> This document is satire, in case you haven't picked up on that yet. If you want a real styleguide, look at [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide).
+## FAQ
+
+#### Is this actually valid Ruby?
+
+**Yes, 100%.** There is a growing movement to enforce a semicolon-less style in languages like Ruby and Python. Don't believe the hype! Semicolons have existed [since 1494](https://en.wikipedia.org/wiki/Semicolon), and there's a good reason why Ruby's syntax allows semicolons. If it weren't necessary, then the language wouldn't have it, eh?
+
+#### Are you really serious?
+
+This document is satire in case you haven't picked up on that yet. If you want a real styleguide, look at [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide).
