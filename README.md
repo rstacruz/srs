@@ -26,7 +26,7 @@ end;
 ```rb
 # ✗ Wtf is this
 if model.valid?
-  return model.save
+  model.save
 end
 ```
 
