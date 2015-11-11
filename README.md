@@ -18,15 +18,15 @@ Although parentheses are optional in Ruby, prefer to always put them so that you
 
 ```rb
 # ✓ OK
-if model.valid?()
-  return false;
-end
+if model.valid?();
+  return model.save();
+end;
 ```
 
 ```rb
 # ✗ Wtf is this
 if model.valid?
-  return false
+  return model.save
 end
 ```
 
