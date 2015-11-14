@@ -84,7 +84,7 @@ class Dolphin:
 
 **Yes, 100%.** There is a growing movement to enforce a semicolon-less style in languages like Ruby and Python. Don't believe the hype! Semicolons have existed [since 1494](https://en.wikipedia.org/wiki/Semicolon), and there's a good reason why Ruby's syntax allows semicolons. If it weren't necessary, then the language wouldn't have it, eh?
 
-#### Isn't it just easier to not put semicolons?
+#### Isn't it easier simply to not use semicolons?
 
 Yes. Actually it is.
 
