@@ -1,6 +1,6 @@
 # Standard Ruby Styleguide
 
-We've started writing our Ruby code in the same way we do our JavaScript code and we've never been happier. We call this approach `srs`, because we're totally serious.
+We've started writing our **Ruby** code in the same way we do our **JavaScript** code and we've never been happier. We call this approach `srs`, because we're totally serious.
 
 ### Use semicolons on statements
 End all your statements with semicolons. Semicolons are optional, but you should always put them in for consistency. Semicolons are fine in Ruby. All Ruby interpreters like MRI, Rubinius and JRuby will be able to parse your code correctly.
@@ -61,6 +61,17 @@ book = Book.new(title: 'Pride & Prejudice', author: 'J. Austen')
 ```rb
 # ✗✗✗ Seriously, do you even Ruby?
 book = Book.new title: 'Pride & Prejudice', author: 'J. Austen'
+```
+
+### Write in other languages in the same way
+Since we're trying to be consistent here, why limit yourself to just Ruby and JavaScript? Do the same with Python!
+
+```py
+class Dolphin:
+    """Nothing can escape our love for semicolons.""";
+    def bark(self):
+        gimp = 'silly animal';
+        print('I cannot bark, you ' + gimp);
 ```
 
 <br>
