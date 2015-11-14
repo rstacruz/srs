@@ -2,25 +2,40 @@
 
 We've started writing our Ruby code in the same way we do our JavaScript code and we've never been happier. We call this approach `srs`, because we're totally serious.
 
-### Always use semicolons
+### Use semicolons on statements
 End all your statements with semicolons. Semicolons are optional, but you should always put them in for consistency. Semicolons are fine in Ruby. All Ruby interpreters like MRI, Rubinius and JRuby will be able to parse your code correctly.
 
 ```rb
-def create_user(name);
+def create_user(name)
   user = User.create({ name: name });
   user.validate!();
   user.save();
-end;
+end
 ```
+
+### Only use semicolons on statements
+Don't use semicolons on anything but statements. Lines that start or end blocks should have no semicolons.
+
+```rb
+class Warewolf < Wolf
+  def bark
+    puts('awoooo');
+  end
+end
+```
+
+It may be difficult to remember which things should have semicolons and which should not. Don't worry! There aren't many exceptions to remember. Just memorize this short list of keywords:
+
+> `if` `unless` `elsif` `while` `do` `end` `def` `class` `module` `begin` `rescue` `ensure` `catch` `case`
 
 ### Never omit parentheses
 Although parentheses are optional in Ruby, prefer to always put them so that your code will be consistent.
 
 ```rb
 # ✓ OK
-if model.valid?();
+if model.valid?()
   return model.save();
-end;
+end
 ```
 
 ```rb
@@ -55,6 +70,10 @@ book = Book.new title: 'Pride & Prejudice', author: 'J. Austen'
 #### Is this actually valid Ruby?
 
 **Yes, 100%.** There is a growing movement to enforce a semicolon-less style in languages like Ruby and Python. Don't believe the hype! Semicolons have existed [since 1494](https://en.wikipedia.org/wiki/Semicolon), and there's a good reason why Ruby's syntax allows semicolons. If it weren't necessary, then the language wouldn't have it, eh?
+
+#### Isn't it just easier to not put semicolons?
+
+Yes. Actually it is.
 
 #### This is terrible advice.
 
