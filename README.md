@@ -24,7 +24,7 @@ class Warewolf < Wolf
 end
 ```
 
-It may be difficult to remember which things should have semicolons and which should not. Don't worry! There aren't many exceptions to remember. Just memorize this short list of keywords:
+It may be difficult to remember which things should have semicolons and which should not. Don't worry! There aren't many exceptions to keep note of. Just memorize this ridiculous list of keywords:
 
 > `if` `unless` `elsif` `else` `while` `do` `end` `def` `class` `module` `begin` `rescue` `ensure` `catch` `case` `when` `until`
 
