@@ -96,7 +96,7 @@ This document is satire in case you haven't picked up on that yet. If you want a
 
 ## What now?
 
-`</satire>` — A lot of modern languages are semicolon-optional. This list includes Ruby, Python, JavaScript, Lua. In all but one of these languages, semicolons are recommended for use as a statement [separator](http://stackoverflow.com/questions/16862337/lua-semicolon-conventions#16863076) when including 2 statements in one line. JavaScript, on the other hand, has an abundancy of documentation that recommends all lines should be terminated with semicolons, despite it being only necessary as a statement separator.
+`</satire>` — A lot of modern languages are semicolon-optional. This list includes Ruby, Python, JavaScript, Lua and Go. In all but one of these languages, semicolons are recommended for use as a statement [separator](http://stackoverflow.com/questions/16862337/lua-semicolon-conventions#16863076) when including 2 statements in one line. JavaScript, on the other hand, has an abundancy of documentation that recommends all lines should be terminated with semicolons, despite it being only necessary as a statement separator.
 
 Why not start writing your JavaScript without semicolons? If it's good enough for [npm](https://github.com/npm/npm/blob/master/lib/init.js), it's good enough for me :) Start by checking the [Standard JavaScript](http://standardjs.com/rules.html) style guide—I promise it'd bring much sanity to your development process.
 
