@@ -26,7 +26,7 @@ end
 
 It may be difficult to remember which things should have semicolons and which should not. Don't worry! There aren't many exceptions to remember. Just memorize this short list of keywords:
 
-> `if` `unless` `elsif` `while` `do` `end` `def` `class` `module` `begin` `rescue` `ensure` `catch` `case`
+> `if` `unless` `elsif` `else` `while` `do` `end` `def` `class` `module` `begin` `rescue` `ensure` `catch` `case`
 
 ### Never omit parentheses
 Although parentheses are optional in Ruby, prefer to always put them so that your code will be consistent.
