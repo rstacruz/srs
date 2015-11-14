@@ -75,13 +75,17 @@ book = Book.new title: 'Pride & Prejudice', author: 'J. Austen'
 
 Yes. Actually it is.
 
-#### This is terrible advice.
-
-That's not a question. Don't like semicolons in your semicolon-optional language? Start (or continue) writing them without semicolons, then! Start with [JavaScript](http://standardjs.com/rules.html) ;)
-
 #### Are you really serious?
 
 This document is satire in case you haven't picked up on that yet. If you want a real styleguide, look at [bbatsov/ruby-style-guide](https://github.com/bbatsov/ruby-style-guide).
+
+<br>
+
+## What now?
+
+`</satire>` — A lot of modern languages are semicolon-optional. This list includes Ruby, Python, JavaScript, Lua. In all but one of these languages, semicolons are recommended for use as a statement [separator](http://stackoverflow.com/questions/16862337/lua-semicolon-conventions#16863076) when including 2 statements in one line. JavaScript, on the other hand, has an abundancy of documentation that recommends all lines should be terminated with semicolons, despite it being only necessary as a statement separator.
+
+Why not start writing your JavaScript without semicolons? If it's good enough for [npm](https://github.com/npm/npm/blob/master/lib/init.js), it's good enough for me :) Start by checking the [Standard JavaScript](http://standardjs.com/rules.html) style guide—I promise it'd bring much sanity to your development process.
 
 <br>
 
