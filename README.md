@@ -33,14 +33,16 @@ Although parentheses are optional in Ruby, prefer to always put them so that you
 
 ```rb
 # ✓ OK
-if model.valid?()
+role = :admin;
+if model.valid_for?(role)
   return model.save();
 end
 ```
 
 ```rb
 # ✗ Wtf is this
-if model.valid?
+role = :admin
+if model.valid?(role)
   model.save
 end
 ```
